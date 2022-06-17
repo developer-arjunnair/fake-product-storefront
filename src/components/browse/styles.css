@@ -1,0 +1,20 @@
+.browseList {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.browseList li {
+  /* border-style: ridge; */
+  border-width: 2px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  box-shadow: 3px 3px 20px 0px #c1b7b7;
+  margin: 15px;
+  transition: all 0.3s ease-in-out;
+}
+
+.browseList li:hover {
+  box-shadow: 6px 6px 17px 2px #999797;
+  transform: scale(1.02);
+}
