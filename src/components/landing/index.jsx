@@ -1,9 +1,10 @@
 import { Outlet } from "react-router-dom";
 import Header from "../header";
+import "./styles.css";
 
 const Landing = () => {
   return (
-    <main className="grid-rows-2">
+    <main className="landing">
       <Header />
       <Outlet />
     </main>

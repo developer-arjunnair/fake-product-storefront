@@ -1,7 +1,9 @@
 .browseList {
   display: flex;
-  list-style: none;
+  list-style-type: none;
   flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 0;
 }
 
 .browseList li {
@@ -17,4 +19,9 @@
 .browseList li:hover {
   box-shadow: 6px 6px 17px 2px #999797;
   transform: scale(1.02);
+}
+
+.categoriesContainer {
+  display: flex;
+  justify-content: center;
 }
