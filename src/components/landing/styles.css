@@ -1,0 +1,6 @@
+.landing {
+  display: grid;
+  grid-template-rows: 2fr 20fr;
+  grid-template-columns: 1fr;
+  justify-content: center;
+}
